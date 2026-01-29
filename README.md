@@ -120,7 +120,7 @@ plot_results("path/to/output")
 
 ---
 
-## 需求
+## Requirements
 - numpy==1.26.4
 - pandas==2.2.2
 - scikit-learn==1.4.0
