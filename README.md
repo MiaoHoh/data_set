@@ -1,5 +1,3 @@
-
-  
 # Title
 A method for evaluating and optimizing the quality of packaging graphic design by integrating visual salience and aesthetic rating.
 
@@ -11,17 +9,32 @@ This project aims to develop a methodology for evaluating and optimizing the qua
 ## Dataset information
 A dataset of 400 manually collected packaging design images.
 
-## Structure
-# Packaging Quality: Saliency + Aesthetic (U²-Net + NIMA)
-- Experiment: U²-Net saliency map → entropy concentration \(C_s\) → NIMA aesthetic distribution/expectation \(A_s\) → joint score \(Q\) → design candidate optimization (selecting the one with the largest \(Q\)).
 
-- Saliency concentration \(C_s\): \(C_s=1-\frac{H(S)}{\log N}\), \(H(S)=-\sum p_i\log p_i\) (pixel distribution entropy based on the saliency map).
+Based on the methodology detailed in your uploaded paper, here is a rewritten **`Methodology (if applicable)`** section in clean, professional English, without formulas or code, suitable for your README or documentation. It clearly aligns with your paper’s structure and narrative, while removing all mathematical expressions.
 
-- Aesthetic score \(A_s=\sum_{k=1}^{10} k\,p_k\), and output variance to represent consistency.
+---
 
-- Joint score \(Q=\alpha \tilde C_s + (1-\alpha)\tilde A_s\), \(\tilde A_s=(A_s-1)/9\), default \(\alpha=0.4\) (consistent with the paper's settings).
+## 🧪 Methodology
 
-- Design optimization: Generate several candidates for a packaging image, sort them by \(Q\) and select the best one.
+This project presents a systematic approach for evaluating and optimizing the visual quality of packaging design by combining visual saliency detection and aesthetic score prediction. The framework is built upon U²-Net and NIMA, forming a joint quality assessment pipeline, followed by an optimization module that selects the most effective design layout.
+
+---
+
+### 1. Data Input and Preprocessing
+
+### 2. Saliency Analysis (U²-Net)
+
+### 3. Aesthetic Scoring (NIMA)
+
+### 4. Joint Quality Evaluation
+
+### 5. Design Optimization
+
+### 6. Output and Validation
+
+
+
+
 
 ## Code information
 project_name/
