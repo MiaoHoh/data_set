@@ -9,10 +9,7 @@ This project aims to develop a methodology for evaluating and optimizing the qua
 ## Dataset information
 A dataset of 400 manually collected packaging design images.
 
-
-Based on the methodology detailed in your uploaded paper, here is a rewritten **`Methodology (if applicable)`** section in clean, professional English, without formulas or code, suitable for your README or documentation. It clearly aligns with your paper’s structure and narrative, while removing all mathematical expressions.
-
----
+##
 
 ## 🧪 Methodology
 
@@ -37,25 +34,18 @@ This project presents a systematic approach for evaluating and optimizing the vi
 
 
 ## Code information
-project_name/
-│
-├── README.md # Project introduction and usage instructions
-├── requirements.txt # List of Python dependency libraries
-├── config/ # Configuration file directory
-│
-└── config.yaml # Project parameter configuration file
-├── data/ # Data storage
-├── src/ # Core source code directory
-├── aesthetic.py # Aesthetic score prediction module (NIMA model wrapper)
-├── config.py # Parameter configuration module
-├── data.py # Data loading and preprocessing module
-├── eval_metrics.py # Evaluation metric functions (PLCC, SRCC, MAE, RMSE, etc.)
-├── joint_score.py # Joint score calculation of significance and aesthetics
-├── main.py # Main program entry point
-├── optimize.py # Layout design optimization module
-├── saliency.py # Saliency extraction module (U²-Net wrapper)
-├── utils.py # Utility functions (such as normalization, format conversion, etc.)
-└── viz.py # Result visualization module (score distribution plot, error analysis plot, etc.)
+---
+### src/ # Core source code directory
+#### aesthetic.py # Aesthetic score prediction module (NIMA model wrapper)
+#### config.py # Parameter configuration module
+#### data.py # Data loading and preprocessing module
+####  eval_metrics.py # Evaluation metric functions (PLCC, SRCC, MAE, RMSE, etc.)
+#### joint_score.py # Joint score calculation of significance and aesthetics
+####  main.py # Main program entry point
+####  optimize.py # Layout design optimization module
+####  saliency.py # Saliency extraction module (U²-Net wrapper)
+####  utils.py # Utility functions (such as normalization, format conversion, etc.)
+####  viz.py # Result visualization module (score distribution plot, error analysis plot, etc.)
 
 
 
@@ -130,8 +120,6 @@ plot_results("path/to/output")
 
 ---
 
-
-
 ## 需求
 - Python 3.8+
 - PyTorch ≥ 1.10
@@ -139,7 +127,6 @@ plot_results("path/to/output")
 - Matplotlib
 - Pandas
 
-## 方法论（如适用）
 
 
 
