@@ -121,16 +121,13 @@ plot_results("path/to/output")
 ---
 
 ## 需求
-- Python 3.8+
-- PyTorch ≥ 1.10
-- OpenCV
-- Matplotlib
-- Pandas
+- numpy==1.26.4
+- pandas==2.2.2
+- scikit-learn==1.4.0
+- PyYAML==6.0.1
+- matplotlib==3.8.2
+- python==Python 3.8
 
 
 
 
-
-## 许可与贡献指南（如适用）
-- 许可证信息
-- 如何贡献
